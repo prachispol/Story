@@ -1,0 +1,5 @@
+Switching remote URLs from HTTPS to SSH
+Open .
+Change the current working directory to your local project.
+Change your remote's URL from HTTPS to SSH with the git remote set-url command. $ git remote set-url origin git@github.com:USERNAME/REPOSITORY.git.
+Verify that the remote URL has changed.
